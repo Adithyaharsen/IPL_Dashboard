@@ -1,0 +1,53 @@
+.teampage{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(1,1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 25px;
+	
+	.back{
+		font-size: 1cap;
+		text-align: center;
+		align-content: center;
+		background-color: rgb(31, 43, 254) ;
+		color: rgb(255, 255, 255);
+	}
+	
+	.team-name-section{
+		grid-column: span 2;
+		display: grid;
+		grid-template-rows:1fr 1fr;
+		.teamname{
+			text-align: center;
+			align-content: end;
+			font-size: 3rem;
+			color: white;
+		}
+		.latestmatch{
+		grid-column: span 3;
+		text-align: center;
+		align-content: end;
+		font-size: 2rem;
+		color: rgb(31, 43, 254);
+		}
+	}
+	
+	.win-loss-section{
+		justify-self: center;
+		align-self: center;
+		align-items: center;
+		color: rgb(31, 43, 254);
+	}
+	
+	.latest-match-section{
+		grid-column: span 4;
+	}
+	
+	.more-section{
+		font-size: 1cap;
+		text-align: center;
+		align-content: center;
+		background-color: rgb(31, 43, 254) ;
+		color: rgb(255, 255, 255);
+	}
+}

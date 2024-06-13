@@ -1,0 +1,171 @@
+.MatchDetailwon-card{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 5px;
+	background-color: rgb(0, 255, 0);
+	.vs{
+		align-content: end;
+		grid-column: span 2;
+		font-size: 2cap;
+		color: rgb(128, 0, 64);
+	}
+	.pom1{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: rgb(31, 43, 254);
+	}
+	.pom2{
+		text-align: center;
+		align-self: center;
+		color: rgb(128, 0, 64);
+	}
+	.opponent{
+		align-content: start;
+		grid-column: span 2;	
+	}
+	.ump11{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: rgb(31, 43, 254);
+	}
+	.ump12{
+		text-align: center;
+		align-self: center;
+		color: rgb(128, 0, 64);
+	}
+	.date{
+		grid-column: span 2;		
+		font-size: 1.5cap;
+		grid-column: span 2;
+		color: rgb(31, 43, 254);
+	}
+	.ump21{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: rgb(31, 43, 254);
+	}
+	.ump22{
+		text-align: center;
+		align-self: center;
+		color: rgb(128, 0, 64);
+	}
+	.venue{
+		grid-column: span 2;
+		color: rgb(128, 0, 64);
+	}
+	.ump31{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: rgb(31, 43, 254);
+	}
+	.ump32{
+		text-align: center;
+		align-self: center;
+		color: rgb(128, 0, 64);
+	}
+	.toss{
+		grid-column: span 4;
+		font-size: 1.5cap;
+		text-align: center;
+		align-self: center;
+		color: rgb(31, 43, 254);
+	}
+	.result{
+		grid-column: span 4;
+		text-align: center;
+		align-self: center;
+		color: rgb(128, 0, 64);
+	}
+}
+
+.MatchDetaillost-card{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 5px;
+	background-color: rgb(255, 0, 0);
+	.vs{
+		align-content: end;
+		grid-column: span 2;
+		font-size: 2cap;
+		color: rgb(0, 0, 0);
+	}
+	.pom1{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: rgb(255, 255, 0);
+	}
+	.pom2{
+		text-align: center;
+		align-self: center;
+		color: rgb(0, 0, 0);
+	}
+	.opponent{
+		align-content: start;
+		grid-column: span 2;	
+	}
+	.ump11{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: rgb(255, 255, 0);
+	}
+	.ump12{
+		text-align: center;
+		align-self: center;
+		color: rgb(0, 0, 0);
+	}
+	.date{
+		grid-column: span 2;		
+		font-size: 1.5cap;
+		grid-column: span 2;
+		color: rgb(255, 255, 0);
+	}
+	.ump21{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: rgb(255, 255, 0);
+	}
+	.ump22{
+		text-align: center;
+		align-self: center;
+		color: rgb(0, 0, 0);
+	}
+	.venue{
+		grid-column: span 2;
+		color: rgb(0, 0, 0);
+	}
+	.ump31{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: rgb(255, 255, 0);
+	}
+	.ump32{
+		text-align: center;
+		align-self: center;
+		color: rgb(0, 0, 0);
+	}
+	.toss{
+		grid-column: span 4;
+		font-size: 1.5cap;
+		text-align: center;
+		align-self: center;
+		color: rgb(255, 255, 0);
+	}
+	.result{
+		grid-column: span 4;
+		text-align: center;
+		align-self: center;
+		color: rgb(0, 0, 0);
+	}
+}
