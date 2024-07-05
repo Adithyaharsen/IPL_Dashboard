@@ -1,0 +1,67 @@
+
+.row{
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+	grid-column-gap: 5px;
+	background-color: black;
+	
+	.position{
+		align-items: center;
+		align-content: center;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.container {
+            position: relative;
+    }
+	
+	.name{
+		align-items: center;
+		align-content: center;
+		background-color: black;
+		color: white;
+	}
+	
+	.matchesplayed{
+		align-items: center;
+		align-content: center;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.matcheswon{
+		align-items: center;
+		align-content: center;
+		background-color: white;
+		color: black;
+	}
+	
+	.matcheslost{
+		align-items: center;
+		align-content: center;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.draw{
+		align-items: center;
+		align-content: center;
+		background-color: white;
+		color: black;
+	}
+	
+	.tpoints{
+		align-items: center;
+		align-content: center;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.nrr{
+		align-items: center;
+		align-content: center;
+		background-color: white;
+		color: black;
+	}
+}

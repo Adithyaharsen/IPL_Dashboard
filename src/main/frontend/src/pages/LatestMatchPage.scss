@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: white;
+}
+
+.LMP{
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: 1fr 90fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 25px;
+	text-align: center;
+	
+	.container {
+            position: relative;
+    }
+	.back3{
+		grid-column: span 1;
+		font-size: 18px;
+		padding: 10px 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		background-color: rgb(31, 43, 254) ;
+		color: rgb(255, 255, 255);
+		cursor: pointer;
+	}
+	.heading{
+		grid-column: span 1;
+		justify-self: center;
+		align-self: center;
+		font-size: 2rem;
+		background-color: rgb(0, 0, 160);
+		color: rgb(128, 255, 255);
+	}
+	.year-selctor3{
+		grid-column: span 1;
+		justify-self: center;
+	}
+	
+	.allmatches{
+		display: grid;
+		grid-column: span 1;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(78,minmax(60px,400px));
+		grid-row-gap: 25px;
+	}
+	
+	.totop{
+		position: fixed;
+		font-size: 15px;
+		right: 20px;
+		bottom: 20px;
+		background-color: purple;
+		color: gold;
+		border-radius: 50%;
+    	border: 1px solid gold ;
+    	cursor: pointer;
+    	height: 50px;
+    	width: 50px;	
+	}
+}

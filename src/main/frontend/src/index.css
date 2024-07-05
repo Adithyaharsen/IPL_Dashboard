@@ -9,20 +9,16 @@
 /*optional it is used to remove the underlines on links*/
 a {
 	text-decoration: none;
-	color: white;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100; 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
-  color: white;;
-  max-width: 1200px;
-  margin: 0 auto;
+  	font-family: "Open Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: weight;
+  	font-style: normal;
+  	font-variation-settings:
+    	"wdth" 100; 
+  		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
+  	margin: 0 auto;
 }

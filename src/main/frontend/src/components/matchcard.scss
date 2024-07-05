@@ -1,0 +1,84 @@
+.mcard{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 5px;
+	background-color: purple;
+	.team1{
+		align-content: end;
+		grid-column: span 2;
+		color: lawngreen;
+	}
+	.poml{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: gold;
+	}
+	.pomd{
+		text-align: center;
+		align-self: center;
+		color: lawngreen;
+	}
+	.team2{
+		align-content: start;
+		grid-column: span 2;	
+	}
+	.ump1l{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: lawngreen;
+	}
+	.ump1d{
+		text-align: center;
+		align-self: center;
+		color: gold;
+	}
+	.mdate{
+		grid-column: span 2;		
+		font-size: 1.5cap;
+		grid-column: span 2;
+		color: gold;
+	}
+	.ump2l{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: gold;
+	}
+	.ump2d{
+		text-align: center;
+		align-self: center;
+		color: lawngreen;
+	}
+	.mvenue{
+		grid-column: span 2;
+		color: lawngreen;
+	}
+	.ump3l{
+		font-size: 1.5cap;
+		text-align: right;
+		align-self: center;
+		color: lawngreen;
+	}
+	.ump3d{
+		text-align: center;
+		align-self: center;
+		color: gold;
+	}
+	.mtoss{
+		grid-column: span 4;
+		font-size: 1.5cap;
+		text-align: center;
+		align-self: center;
+		color: gold;
+	}
+	.mresult{
+		grid-column: span 4;
+		text-align: center;
+		align-self: center;
+		color: lawngreen;
+	}
+}

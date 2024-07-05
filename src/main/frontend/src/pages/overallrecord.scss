@@ -1,0 +1,93 @@
+.oarecords{
+	display: grid;
+	grid-template-rows: 1fr 1fr 6fr;
+	
+	.container {
+	            position: relative;
+	}
+	
+	.title10{
+		grid-column: span 1;
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-template-rows: 1fr;
+		
+		.back10{
+			font-size: 18px;
+			padding: 10px 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background-color: rgb(31, 43, 254) ;
+			color: rgb(255, 255, 255);
+			cursor: pointer;
+		}
+		
+		.t10{
+			align-self: center;
+			text-align: center;
+			justify-self: center;
+			color: white;
+		}
+	}
+	
+	.s{
+		grid-column: span 1;
+	}
+	
+	.summa{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		
+		.optiontitle{
+			grid-column: span 1;
+			text-align: left;
+		}
+		
+		.table-container1{
+			grid-column: span 1;
+			display: grid;
+			grid-template-rows: repeat(11,1fr);
+			grid-row-gap: 5px;
+			grid-column-gap: 5px;
+			background-color: black;
+			
+			.header10{
+				display: grid;
+				grid-template-columns: repeat(3,1fr);
+				grid-column-gap: 5px;
+				background-color: black;
+				font-weight: bold;
+				
+				.slno{
+					align-items: center;
+					align-content: center;
+					width: 200px;
+					height: 50px;
+					background-color: greenyellow;
+					color: red;
+					
+				}
+				
+				.player{
+					align-items: center;
+					align-content: center;
+					width: 200px;
+					height: 50px;
+					background-color: greenyellow;
+					color: red;
+				}
+				
+				.value{
+					align-items: center;
+					align-content: center;
+					width: 200px;
+					height: 50px;
+					background-color: greenyellow;
+					color: red;
+				}
+			}
+		}
+	}
+}

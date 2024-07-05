@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.ptp{
+	display: grid;
+	grid-template-columns: 1fr 10fr;
+	grid-template-rows: 1fr 10fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 25px;
+	text-align: center;
+	
+	.back2{
+		font-size: 18px;
+		padding: 10px 20px;
+		align-items: center;
+		align-content: center;
+		justify-self: center;
+		background-color: rgb(31, 43, 254) ;
+		color: rgb(255, 255, 255);
+		cursor: pointer;
+	}
+	
+	.pt-year-section{
+		.pt{
+			text-align: center;
+			align-content: center;
+			font-size: 3rem;
+			color: red;
+		}
+		
+		.y{
+			text-align: center;
+			align-content: center;
+			color: greenyellow;
+		}
+	}
+	
+	.table{
+		display: grid;
+		grid-template-rows: repeat(11,1fr);
+		grid-row-gap: 5px;
+		height: 750px;
+		background-color: black;
+		
+		.header{
+			display: grid;
+			grid-template-columns: repeat(8,1fr);
+			grid-column-gap: 5px;
+			background-color: black;
+			
+			.position{
+				align-items: center;
+				align-content: center;
+				background-color: gainsboro;
+				color: black;
+			}
+		
+			.name{
+				align-items: center;
+				align-content: center;
+				background-color: black;
+				color: white;
+			}
+		
+			.matchesplayed{
+				align-items: center;
+				align-content: center;
+				background-color: gainsboro;
+				color: black;
+			}
+		
+			.matcheswon{
+				align-items: center;
+				align-content: center;
+				background-color: white;
+				color: black;
+			}
+		
+			.matcheslost{
+				align-items: center;
+				align-content: center;
+				background-color: gainsboro;
+				color: black;
+			}
+		
+			.draw{
+				align-items: center;
+				align-content: center;
+				background-color: white;
+				color: black;
+			}
+		
+			.tpoints{
+				align-items: center;
+				align-content: center;
+				background-color: gainsboro;
+				color: black;
+			}
+		
+			.nrr{
+				align-items: center;
+				align-content: center;
+				background-color: white;
+				color: black;
+			}
+		}
+	}
+}

@@ -24,6 +24,14 @@ public class team
 		totalwins=0;
 	}
 
+	public team(String teamname, int totalmatches, int totalwins) {
+		super();
+		this.teamname = teamname;
+		this.totalmatches = totalmatches;
+		this.totalwins = totalwins;
+	}
+
+
 	public String getTeamname() {
 		return teamname;
 	}

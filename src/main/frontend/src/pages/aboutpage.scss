@@ -1,0 +1,62 @@
+.about{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2fr 25fr 1fr;
+	grid-row-gap: 25px;
+	
+	.container {
+	            position: relative;
+	}
+	
+	.title3{
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-template-rows: 1fr;
+		
+		.back6{
+			font-size: 18px;
+			padding: 10px 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background-color: rgb(31, 43, 254) ;
+			color: rgb(255, 255, 255);
+			cursor: pointer;
+		}
+		
+		.t3{
+			align-self: center;
+			text-align: center;
+			justify-self: center;
+			color: white;
+		}
+	}
+	
+	.details{
+		text-align: left;
+		color: orange;
+		
+		.t{
+			text-align: center;
+			justify-self: center;
+		}
+		.blue1{
+			color: blue;
+			font-size: 1.5rem;
+		}
+	}
+	
+	.despage{
+		text-align: left;
+		color: blue;
+	}
+	
+	.blue{
+		color: blue;
+	}
+	
+	.white{
+		color: white;
+	}
+}

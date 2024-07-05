@@ -1,0 +1,113 @@
+.des{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr 3fr 1fr;
+	grid-row-gap: 25px;
+	max-height: 2500px;
+	
+	.container {
+	            position: relative;
+	}
+	
+	.title2{
+		grid-column: span 2;
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-template-rows: 1fr;
+		
+		.back5{
+			font-size: 18px;
+			padding: 10px 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background-color: rgb(31, 43, 254) ;
+			color: rgb(255, 255, 255);
+			cursor: pointer;
+		}
+		
+		.t2{
+			align-content: center;
+			justify-self: center;
+			text-align: center;
+			color: white;
+		}
+	}
+	
+	.d1{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-template-rows: repeat(6,1fr);
+		grid-row-gap: 5px;
+		grid-column-gap: 30px;
+		
+		.dl1{
+			color: blue;
+			text-align: right;
+		}
+		.dd1{
+			color: orange;
+			text-align: left;
+		}
+		.dl2{
+			color: blue;
+			text-align: right;
+		}
+		.dd2{
+			color: orange;
+			text-align: left;
+		}
+		.dl3{
+			color: blue;
+			text-align: right;
+		}
+		.dd3{
+			color: orange;
+			text-align: left;
+		}
+		.dl4{
+			color: blue;
+			text-align: right;
+		}
+		.dd4{
+			color: orange;
+			text-align: left;
+		}
+		.dl5{
+			color: blue;
+			text-align: right;
+		}
+		.dd5{
+			color: orange;
+			text-align: left;
+		}
+		.dl6{
+			color: blue;
+			text-align: right;
+		}
+		.dd6{
+			color: orange;
+			text-align: left;
+		}
+	}
+	
+	.d2{
+		align-items: center;
+		justify-self: center ;
+		
+		.img{
+  			border: 2px solid blue;
+  			border-radius: 4px;
+  			padding: 5px solid orange;
+  			width: 50%;
+  			max-height: 500px;
+  			max-width: 250px;
+  		}
+	}
+	
+	.projectdes{
+		grid-column: span 2;
+		color: orange;
+	}
+}

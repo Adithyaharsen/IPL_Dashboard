@@ -19,7 +19,7 @@ export const TeamPage = () =>{
 			fetchMatches();
 		} , [teamName]
  	);
- 	const Back = `/`;
+ 	const Back = `/teams`;
 	const more = `/teams/${teamName}/matches/2023`;
  	if(team==null || team.teamname==null)
  	{
@@ -27,8 +27,8 @@ export const TeamPage = () =>{
  	}
   	return (
     	<div className="teampage">
-    		<div className='back'>
-				<h1><Link to={Back}>  {'<'} Dashboard</Link></h1>
+    		<div className='container'>
+				<Link to={Back}><button className='back'>Team Dashboard</button></Link>
 			</div>
     		<div className='team-name-section'>
     			<h1 className='teamname'>{team.teamname}</h1>
@@ -50,8 +50,8 @@ export const TeamPage = () =>{
     		
    			{team.matches.slice(1).map(match => <MatchSmallCard teamName = { team.teamname } match={match}/>)}
 			
-			<div className='more-section'>
-				<h1><Link to={more}> More  ={'>'} </Link></h1>
+			<div className='container'>
+				<Link to={more}><button className='more-section'> More  ={'>'} </button></Link>
 			</div>
     	</div>
   	);

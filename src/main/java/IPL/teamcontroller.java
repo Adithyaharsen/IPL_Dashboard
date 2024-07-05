@@ -45,4 +45,12 @@ public class teamcontroller
 		LocalDate endDate = LocalDate.of(year, 12, 31);
 		return mr.findByTeam1AndDateBetweenOrTeam2AndDateBetweenOrderByDateDesc(teamName,startDate,endDate,teamName,startDate,endDate);
 	}
+	
+	@GetMapping("matches/{year}")
+	public List<match_data> getMatchesforTeam(@PathVariable("year") int year)
+	{
+		LocalDate startDate = LocalDate.of(year, 1, 1);
+		LocalDate endDate = LocalDate.of(year, 12, 31);
+		return mr.findByDateBetween(startDate,endDate);
+	}
 }

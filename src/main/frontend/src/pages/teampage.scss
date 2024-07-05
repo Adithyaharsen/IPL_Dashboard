@@ -1,16 +1,28 @@
+a{
+	color: white;
+}
+
 .teampage{
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 	grid-template-rows: repeat(1,1fr);
 	grid-column-gap: 10px;
 	grid-row-gap: 25px;
+	text-align: center;
 	
+	.container {
+            position: relative;
+    }
 	.back{
-		font-size: 1cap;
-		text-align: center;
-		align-content: center;
+		font-size: 18px;
+		padding: 10px 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
 		background-color: rgb(31, 43, 254) ;
 		color: rgb(255, 255, 255);
+		cursor: pointer;
 	}
 	
 	.team-name-section{
@@ -44,10 +56,14 @@
 	}
 	
 	.more-section{
-		font-size: 1cap;
-		text-align: center;
-		align-content: center;
+		font-size: 18px;
+		padding: 10px 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
 		background-color: rgb(31, 43, 254) ;
 		color: rgb(255, 255, 255);
+		cursor: pointer;
 	}
 }

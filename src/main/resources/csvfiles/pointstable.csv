@@ -1,0 +1,137 @@
+id,iplrank,matcheslost,matchesplayed,matcheswon,name,noresult,nrr,points,season,short_name
+1001,1,4,14,10,Gujarat Titans,0,0.809,20,2023,GT
+1002,2,5,14,8,Chennai Super Kings,1,0.652,17,2023,CSK
+1003,3,5,14,8,Lucknow Super Giants,1,0.284,17,2023,LSG
+1004,4,6,14,8,Mumbai Indians,0,-0.044,16,2023,MI
+1005,5,7,14,7,Rajasthan Royals,0,0.148,14,2023,RR
+1006,6,7,14,7,Royal Challengers Bangalore,0,0.135,14,2023,RCB
+1007,7,8,14,6,Kolkata Knight Riders,0,-0.239,12,2023,KKR
+1008,8,8,14,6,Punjab Kings,0,-0.304,12,2023,KXIP
+1009,9,9,14,5,Delhi Capitals,0,-0.808,10,2023,DC
+1010,10,10,14,4,Sunrisers Hyderabad,0,-0.59,8,2023,SRH
+1011,1,4,14,10,Gujarat Titans,0,0.316,20,2022,GT
+1012,2,5,14,9,Rajasthan Royals,0,0.298,18,2022,RR
+1013,3,5,14,9,Lucknow Super Giants,0,0.251,18,2022,LSG
+1014,4,6,14,8,Royal Challengers Bangalore,0,-0.253,16,2022,RCB
+1015,5,7,14,7,Delhi Capitals,0,0.204,14,2022,DC
+1016,6,7,14,7,Punjab Kings,0,0.126,14,2022,KXIP
+1017,7,8,14,6,Kolkata Knight Riders,0,0.146,12,2022,KKR
+1018,8,8,14,6,Sunrisers Hyderabad,0,-0.379,12,2022,SRH
+1019,9,10,14,4,Chennai Super Kings,0,-0.203,8,2022,CSK
+1020,10,10,14,4,Mumbai Indians,0,-0.506,8,2022,MI
+1021,1,4,14,10,Delhi Capitals,0,0.481,20,2021,DC
+1022,2,5,14,9,Chennai Super Kings,0,0.455,18,2021,CSK
+1023,3,5,14,9,Royal Challengers Bangalore,0,-0.14,18,2021,RCB
+1024,4,7,14,7,Kolkata Knight Riders,0,0.587,14,2021,KKR
+1025,5,7,14,7,Mumbai Indians,0,0.116,14,2021,MI
+1026,6,8,14,6,Punjab Kings,0,-0.001,12,2021,KXIP
+1027,7,9,14,5,Rajasthan Royals,0,-0.993,10,2021,RR
+1028,8,11,14,3,Sunrisers Hyderabad,0,-0.545,6,2021,SRH
+1029,1,5,14,9,Mumbai Indians,0,1.107,18,2020,MI
+1030,2,6,14,8,Delhi Capitals,0,-0.109,16,2020,DC
+1031,3,7,14,7,Sunrisers Hyderabad,0,0.608,14,2020,SRH
+1032,4,7,14,7,Royal Challengers Bangalore,0,-0.172,14,2020,RCB
+1033,5,7,14,7,Kolkata Knight Riders,0,-0.214,14,2020,KKR
+1034,6,8,14,6,Kings XI Punjab,0,-0.162,12,2020,KXIP
+1035,7,8,14,6,Chennai Super Kings,0,-0.455,12,2020,CSK
+1036,8,8,14,6,Rajasthan Royals,0,-0.569,12,2020,RR
+1037,1,5,14,9,Mumbai Indians,0,0.421,18,2019,MI
+1038,2,5,14,9,Chennai Super Kings,0,0.131,18,2019,CSK
+1039,3,5,14,9,Delhi Capitals,0,0.044,18,2019,DC
+1040,4,8,14,6,Sunrisers Hyderabad,0,0.577,12,2019,SRH
+1041,5,8,14,6,Kolkata Knight Riders,0,0.028,12,2019,KKR
+1042,6,8,14,6,Kings XI Punjab,0,-0.251,12,2019,KXIP
+1043,7,8,14,5,Rajasthan Royals,1,-0.449,11,2019,RR
+1044,8,8,14,5,Royal Challengers Bangalore,1,-0.607,11,2019,RCB
+1045,1,5,14,9,Sunrisers Hyderabad,0,0.284,18,2018,SRH
+1046,2,5,14,9,Chennai Super Kings,0,0.253,18,2018,CSK
+1047,3,6,14,8,Kolkata Knight Riders,0,-0.07,16,2018,KKR
+1048,4,7,14,7,Rajasthan Royals,0,-0.25,14,2018,RR
+1049,5,8,14,6,Mumbai Indians,0,0.317,12,2018,MI
+1050,6,8,14,6,Royal Challengers Bangalore,0,0.129,12,2018,RCB
+1051,7,8,14,6,Kings XI Punjab,0,-0.502,12,2018,KXIP
+1052,8,9,14,5,Delhi Capitals,0,-0.222,10,2018,DC
+1053,1,4,14,10,Mumbai Indians,0,0.784,20,2017,MI
+1054,2,5,14,9,Rising Pune Supergiant,0,0.176,18,2017,RPS
+1055,3,5,14,8,Sunrisers Hyderabad,1,0.599,17,2017,SRH
+1056,4,6,14,8,Kolkata Knight Riders,0,0.641,16,2017,KKR
+1057,5,7,14,7,Kings XI Punjab,0,-0.009,14,2017,KXIP
+1058,6,8,14,6,Delhi Capitals,0,-0.512,12,2017,DC
+1059,7,10,14,4,Gujarat Lions,0,-0.412,8,2017,GL
+1060,8,10,14,3,Royal Challengers Bangalore,1,-1.299,7,2017,RCB
+1061,1,5,14,9,Gujarat Lions,0,-0.374,18,2016,GL
+1062,2,6,14,8,Royal Challengers Bangalore,0,0.932,16,2016,RCB
+1063,3,6,14,8,Sunrisers Hyderabad,0,0.245,16,2016,SRH
+1064,4,6,14,8,Kolkata Knight Riders,0,0.106,16,2016,KKR
+1065,5,7,14,7,Mumbai Indians,0,-0.146,14,2016,MI
+1066,6,7,14,7,Delhi Capitals,0,-0.155,14,2016,DC
+1067,7,9,14,5,Rising Pune Supergiant,0,0.015,10,2016,RPS
+1068,8,10,14,4,Kings XI Punjab,0,-0.646,8,2016,KXIP
+1069,1,5,14,9,Chennai Super Kings,0,0.709,18,2015,CSK
+1070,2,6,14,8,Mumbai Indians,0,-0.043,16,2015,MI
+1071,3,5,14,7,Royal Challengers Bangalore,2,1.037,16,2015,RCB
+1072,4,5,14,7,Rajasthan Royals,2,0.062,16,2015,RR
+1073,5,6,14,7,Kolkata Knight Riders,1,0.253,15,2015,KKR
+1074,6,7,14,7,Sunrisers Hyderabad,0,-0.239,14,2015,SRH
+1075,7,8,14,5,Delhi Capitals,1,-0.049,11,2015,DC
+1076,8,11,14,3,Kings XI Punjab,0,-1.436,6,2015,KXIP
+1077,1,3,14,11,Kings XI Punjab,0,0.968,22,2014,KXIP
+1078,2,5,14,9,Kolkata Knight Riders,0,0.418,18,2014,KKR
+1079,3,5,14,9,Chennai Super Kings,0,0.385,18,2014,CSK
+1080,4,7,14,7,Mumbai Indians,0,0.095,14,2014,MI
+1081,5,7,14,7,Rajasthan Royals,0,0.06,14,2014,RR
+1082,6,8,14,6,Sunrisers Hyderabad,0,-0.399,12,2014,SRH
+1083,7,9,14,5,Royal Challengers Bangalore,0,-0.428,10,2014,RCB
+1084,8,12,14,2,Delhi Capitals,0,-1.182,4,2014,DC
+1085,1,5,16,11,Chennai Super Kings,0,0.53,22,2013,CSK
+1086,2,5,16,11,Mumbai Indians,0,0.441,22,2013,MI
+1087,3,6,16,10,Rajasthan Royals,0,0.322,20,2013,RR
+1088,4,6,16,10,Sunrisers Hyderabad,0,0.003,20,2013,SRH
+1089,5,7,16,9,Royal Challengers Bangalore,0,0.457,18,2013,RCB
+1090,6,8,16,8,Kings XI Punjab,0,0.226,16,2013,KXIP
+1091,7,10,16,6,Kolkata Knight Riders,0,-0.095,12,2013,KKR
+1092,8,12,16,4,Pune Warriors,0,-1.006,8,2013,PWI
+1093,9,13,16,3,Delhi Capitals,0,-0.848,6,2013,DC
+1094,1,5,16,11,Delhi Capitals,0,0.617,22,2012,DC
+1095,2,5,16,10,Kolkata Knight Riders,1,0.561,21,2012,KKR
+1096,3,6,16,10,Mumbai Indians,0,-0.1,20,2012,MI
+1097,4,7,16,8,Chennai Super Kings,1,0.1,17,2012,CSK
+1098,5,7,16,8,Royal Challengers Bangalore,1,-0.022,17,2012,RCB
+1099,6,8,16,8,Kings XI Punjab,0,-0.216,16,2012,KXIP
+1100,7,9,16,7,Rajasthan Royals,0,0.201,14,2012,RR
+1101,8,11,16,4,Deccan Chargers,1,-0.509,9,2012,SRH
+1102,9,12,16,4,Pune Warriors,0,-0.551,8,2012,PWI
+1103,1,4,14,9,Royal Challengers Bangalore,1,0.326,19,2011,RCB
+1104,2,5,14,9,Chennai Super Kings,0,0.443,18,2011,CSK
+1105,3,5,14,9,Mumbai Indians,0,0.04,18,2011,MI
+1106,4,6,14,8,Kolkata Knight Riders,0,0.433,16,2011,KKR
+1107,5,7,14,7,Kings XI Punjab,0,-0.051,14,2011,KXIP
+1108,6,7,14,6,Rajasthan Royals,1,-0.691,13,2011,RR
+1109,7,8,14,6,Deccan Chargers,0,0.222,12,2011,SRH
+1110,8,8,14,6,Kochi Tuskers Kerala,0,-0.214,12,2011,Kochi
+1111,9,9,14,4,Pune Warriors,1,-0.134,9,2011,PWI
+1112,10,9,14,4,Delhi Capitals,1,-0.448,9,2011,DC
+1113,1,4,14,10,Mumbai Indians,0,1.084,20,2010,MI
+1114,2,6,14,8,Deccan Chargers,0,-0.297,16,2010,SRH
+1115,3,7,14,7,Chennai Super Kings,0,0.274,14,2010,CSK
+1116,4,7,14,7,Royal Challengers Bangalore,0,0.219,14,2010,RCB
+1117,5,7,14,7,Delhi Capitals,0,0.021,14,2010,DC
+1118,6,7,14,7,Kolkata Knight Riders,0,-0.341,14,2010,KKR
+1119,7,8,14,6,Rajasthan Royals,0,-0.514,12,2010,RR
+1120,8,10,14,4,Kings XI Punjab,0,-0.478,8,2010,KXIP
+1121,1,4,14,10,Delhi Capitals,0,0.311,20,2009,DC
+1122,2,5,14,8,Chennai Super Kings,1,0.951,17,2009,CSK
+1123,3,6,14,8,Royal Challengers Bangalore,0,-0.191,16,2009,RCB
+1124,4,7,14,7,Deccan Chargers,0,0.203,14,2009,SRH
+1125,5,7,14,7,Kings XI Punjab,0,-0.483,14,2009,KXIP
+1126,6,7,14,6,Rajasthan Royals,1,-0.352,13,2009,RR
+1127,7,8,14,5,Mumbai Indians,1,0.297,11,2009,MI
+1128,8,10,14,3,Kolkata Knight Riders,1,-0.789,7,2009,KKR
+1129,1,3,14,11,Rajasthan Royals,0,0.632,22,2008,RR
+1130,2,4,14,10,Kings XI Punjab,0,0.509,20,2008,KXIP
+1131,3,6,14,8,Chennai Super Kings,0,-0.192,16,2008,CSK
+1132,4,6,14,7,Delhi Capitals,1,0.342,15,2008,DC
+1133,5,7,14,7,Mumbai Indians,0,0.57,14,2008,MI
+1134,6,7,14,6,Kolkata Knight Riders,1,-0.147,13,2008,KKR
+1135,7,10,14,4,Royal Challengers Bangalore,0,-1.16,8,2008,RCB
+1136,8,12,14,2,Deccan Chargers,0,-0.467,4,2008,SRH

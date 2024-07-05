@@ -1,7 +1,6 @@
 package IPL;
 
 import java.sql.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -49,7 +48,7 @@ public class match_data
 		this.umpire2 = null;
 		this.umpire3 = null;
 	}
-
+	
 	public match_data(int id, int season, String city, Date date, String team1, String team2, String toss_winner,
 			String toss_decision,String result, String dl_applied, String winner, int win_by_runs, int win_by_wickets,
 			String player_of_match, String venue, String umpire1, String umpire2, String umpire3)

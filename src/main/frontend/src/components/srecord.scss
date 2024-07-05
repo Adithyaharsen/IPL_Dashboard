@@ -1,0 +1,133 @@
+
+.row1{
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-column-gap: 5px;
+	background-color: black;
+	
+	.season{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: red;
+		color: greenyellow;
+	}
+	
+	.winner{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: white;
+		color: black;
+	}
+	
+	.fair_play_award{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.Orange_Cap_P{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: white;
+		color: black;
+	}
+	
+	.Orange_Cap{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.Purple_Cap_P{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: white;
+		color: black;
+	}
+	
+	.Purple_Cap{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.Most_Sixes_P{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: white;
+		color: black;
+	}
+	
+	.Most_Sixes{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.H_SR_P{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: white;
+		color: black;
+	}
+	
+	.H_SR{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.PoT{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: white;
+		color: black;
+	}
+	
+	.Emerging_P{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: gainsboro;
+		color: black;
+	}
+	
+	.Best_Catch{
+		align-items: center;
+		align-content: center;
+		width: 200px;
+		height: 50px;
+		background-color: white;
+		color: black;
+	}
+}

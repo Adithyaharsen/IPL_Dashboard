@@ -1,0 +1,182 @@
+.srecords{
+	display: grid;
+	grid-template-rows: 1fr 1fr 10fr;
+	
+	.container {
+	            position: relative;
+	}
+	
+	.title9{
+		grid-column: span 1;
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-template-rows: 1fr;
+		
+		.back9{
+			font-size: 18px;
+			padding: 10px 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background-color: rgb(31, 43, 254) ;
+			color: rgb(255, 255, 255);
+			cursor: pointer;
+		}
+		
+		.t9{
+			align-self: center;
+			text-align: center;
+			justify-self: center;
+			color: white;
+		}
+	}
+	
+	.ss{
+		grid-column: span 1;
+		height: 100px;
+	}
+	
+	.table-container{
+		display: grid;
+		grid-row-gap: 5px;
+		height: 750px;
+		background-color: black;
+		overflow: scroll;
+		
+		.header9{
+			display: grid;
+			grid-template-columns: repeat(14,1fr);
+			grid-column-gap: 5px;
+			background-color: black;
+			font-weight: bold;
+			
+			.season{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+				
+			}
+			
+			.winner{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.fair_play_award{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.Orange_Cap_P{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.Orange_Cap{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.Purple_Cap_P{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.Purple_Cap{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.Most_Sixes_P{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.Most_Sixes{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.H_SR_P{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.H_SR{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.PoT{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.Emerging_P{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+			
+			.Best_Catch{
+				align-items: center;
+				align-content: center;
+				width: 200px;
+				height: 50px;
+				background-color: greenyellow;
+				color: red;
+			}
+		}
+	}
+}
